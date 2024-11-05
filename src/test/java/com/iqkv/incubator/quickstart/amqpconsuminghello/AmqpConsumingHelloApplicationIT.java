@@ -1,4 +1,4 @@
-package dev.knowhowto.amqpconsuminghello;
+package com.iqkv.incubator.quickstart.amqpconsuminghello;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

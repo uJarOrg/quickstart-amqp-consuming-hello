@@ -1,8 +1,8 @@
-package dev.knowhowto.amqpconsuminghello.consumer;
+package com.iqkv.incubator.quickstart.amqpconsuminghello.consumer;
 
 import java.util.concurrent.CountDownLatch;
 
-import dev.knowhowto.amqpconsuminghello.model.Greeting;
+import com.iqkv.incubator.quickstart.amqpconsuminghello.model.Greeting;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package dev.knowhowto.amqpconsuminghello.config;
+package com.iqkv.incubator.quickstart.amqpconsuminghello.config;
 
 import jakarta.validation.constraints.NotNull;
 

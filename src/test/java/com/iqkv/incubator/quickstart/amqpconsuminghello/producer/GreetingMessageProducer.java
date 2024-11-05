@@ -1,7 +1,7 @@
-package dev.knowhowto.amqpconsuminghello.producer;
+package com.iqkv.incubator.quickstart.amqpconsuminghello.producer;
 
-import dev.knowhowto.amqpconsuminghello.config.AmqpQueuesProperties;
-import dev.knowhowto.amqpconsuminghello.model.Greeting;
+import com.iqkv.incubator.quickstart.amqpconsuminghello.config.AmqpQueuesProperties;
+import com.iqkv.incubator.quickstart.amqpconsuminghello.model.Greeting;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

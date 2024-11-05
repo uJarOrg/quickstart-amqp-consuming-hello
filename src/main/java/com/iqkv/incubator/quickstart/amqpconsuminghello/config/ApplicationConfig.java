@@ -1,4 +1,4 @@
-package dev.knowhowto.amqpconsuminghello.config;
+package com.iqkv.incubator.quickstart.amqpconsuminghello.config;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

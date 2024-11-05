@@ -1,6 +1,6 @@
-package dev.knowhowto.amqpconsuminghello.config;
+package com.iqkv.incubator.quickstart.amqpconsuminghello.config;
 
-import dev.knowhowto.amqpconsuminghello.consumer.GreetingMessageConsumer;
+import com.iqkv.incubator.quickstart.amqpconsuminghello.consumer.GreetingMessageConsumer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

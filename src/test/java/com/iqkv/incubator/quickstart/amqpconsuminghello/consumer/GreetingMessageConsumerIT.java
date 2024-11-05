@@ -1,4 +1,4 @@
-package dev.knowhowto.amqpconsuminghello.consumer;
+package com.iqkv.incubator.quickstart.amqpconsuminghello.consumer;
 
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -6,8 +6,8 @@ import static org.hamcrest.CoreMatchers.containsString;
 
 import java.util.concurrent.TimeUnit;
 
-import dev.knowhowto.amqpconsuminghello.model.Greeting;
-import dev.knowhowto.amqpconsuminghello.producer.GreetingMessageProducer;
+import com.iqkv.incubator.quickstart.amqpconsuminghello.model.Greeting;
+import com.iqkv.incubator.quickstart.amqpconsuminghello.producer.GreetingMessageProducer;
 import org.hamcrest.MatcherAssert;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
