@@ -59,7 +59,7 @@ quality is measured by:
 This project has standard JUnit tests. To run them execute this command:
 
 ```
-./mvnw verify -P testcontainers-support
+./mvnw verify -P use-testcontainers
 ```
 
 It is mandatory to keep test code coverage not below **80** percents and cover all business logic and edge cases.
