@@ -15,6 +15,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class GreetingMessageConsumerIT {
+  static {
+    System.setProperty("spring.amqp.deserialization.trust.all", "true");
+  }
 
   private final GreetingMessageProducer producer;
   private final GreetingMessageConsumer consumer;
