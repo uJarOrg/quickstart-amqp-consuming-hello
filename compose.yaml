@@ -15,7 +15,7 @@ services:
       - "15672:15672"
   prometheus:
     container_name: dev-quickstart-amqp-consuming-hello-prometheus
-    image: prom/prometheus:v2.54.1
+    image: prom/prometheus:v3.1.0
     volumes:
       - ./src/main/docker/prometheus/:/etc/prometheus/
     command:
@@ -25,7 +25,7 @@ services:
     network_mode: "host" # to test locally running service
   grafana:
     container_name: dev-quickstart-amqp-consuming-hello-grafana
-    image: grafana/grafana:11.2.2
+    image: grafana/grafana:11.4.0
     volumes:
       - ./src/main/docker/grafana/provisioning/:/etc/grafana/provisioning/
     environment:
