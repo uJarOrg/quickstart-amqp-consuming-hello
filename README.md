@@ -10,7 +10,7 @@ Pre-Requisites to run this example locally
 - Clone source code to the local machine:
 
 ```
-git clone https://github.com/KnowHowSpringBoot/quickstart-amqp-consuming-hello.git
+git clone https://github.com/IQKV/quickstart-amqp-consuming-hello.git
 
 cd quickstart-amqp-consuming-hello
 ```
